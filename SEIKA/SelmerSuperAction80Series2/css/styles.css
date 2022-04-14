@@ -234,11 +234,11 @@ footer li a:hover {
 
 @media (max-width: 600px) {
   #top {
-    font-size: 46px;
+    font-size: 42px;
   }
 
   h2 {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     margin-top: 8px;
     padding: 56px 0 8px;
