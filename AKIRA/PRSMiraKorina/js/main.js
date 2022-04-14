@@ -35,8 +35,6 @@
 {
   const images = [
     'img/a.jpg',
-    'img/b.jpg',
-    'img/c.jpg',
   ];
   let currentIndex = 0;
 
