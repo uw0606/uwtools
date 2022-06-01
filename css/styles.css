@@ -213,6 +213,66 @@ nav li:hover {
   margin-bottom: 62px;
 }
 
+
+/* サイトメニュー */
+
+.othersite {
+  padding: 64px 0;
+}
+.othersite section {
+  width:calc((100% - 32px) / 3);
+  background: rgb(231, 231, 231);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sitemenu {
+  margin: 0 86px 0 86px;
+}
+
+.sitemenu section + section {
+  margin-top: 16px;
+  margin: 0 0 0 46px;
+}
+.othersite .sitemenu {
+  display: flex;
+  gap: 16px;
+}
+
+.othersite  section + section {
+  margin-top: 0;
+}
+
+/* サイトメニューアニメーション */
+
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity .6s, transform .6s;
+}
+
+.animate.appear {
+  opacity: 1;
+  transform: none;
+}
+
+.animate.delay1 {
+  transition-delay: .3s;
+}
+
+.animate.delay2 {
+  transition-delay: .6s;
+}
+
+.animate:hover {
+  transition: none;
+  opacity: 0.5;
+}
+
+
+
 /* フッター */
 footer {
   font-size: 12px;
