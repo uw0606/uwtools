@@ -322,4 +322,20 @@ footer li a:hover {
   .thumbnails img {
     width: 56px;
   }
+
+
+  .othersite {
+    font-size: 10px;
+  }
+
+  .sitemenu {
+    margin: 0 32px 0 32px;
+  }
+
+  .sitemenu section + section {
+    margin-top: 16px;
+    margin: 0 0 0 16px;
+  }
+
+
 }
