@@ -61,89 +61,89 @@ header h1 {
   display: none;
 }
 
-  /* 北海道メニュー */
-.hkd {
+  /* 真太郎メニュー */
+.shintaro {
   list-style: none;
   padding: 0; 
   margin: 0;  
 }
-.hkd li {
+.shintaro li {
   padding: 8px;
 }
-.hkd li a {
+.shintaro li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer; 
 }
-.hkd li a:hover {
+.shintaro li a:hover {
   opacity: 0.5;
 }
-/* 東京メニュー */
-.tyo {
+/* 信人メニュー */
+.nobuto {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.tyo li {
+.nobuto li {
   padding: 8px;
 }
-.tyo li a {
+.nobuto li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.tyo li a:hover {
+.nobuto li a:hover {
   opacity: 0.5;
 }
-/* 大阪メニュー */
-.osa {
+/* 彰メニュー */
+.akira {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.osa li {
+.akira li {
   padding: 8px;
 }
-.osa li a {
+.akira li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.osa li a:hover {
+.akira li a:hover {
   opacity: 0.5;
 }
-/* 福岡メニュー */
-.fuk {
+/* 克哉メニュー */
+.katsuya {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.fuk li {
+.katsuya li {
   padding: 8px;
 }
-.fuk li a {
+.katsuya li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.fuk li a:hover {
+.katsuya li a:hover {
   opacity: 0.5;
 }
-/* その他メニュー */
-.otr {
+/* 誠果メニュー */
+.seika {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.otr li {
+.seika li {
   padding: 8px;
 }
-.otr li a {
+.seika li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.otr li a:hover {
+.seika li a:hover {
   opacity: 0.5;
 }
 
@@ -151,12 +151,6 @@ h2 {
   text-align: center;
   margin-top: 8px;
   padding: 56px 0 8px;
-  text-decoration: none;
-}
-
-.name {
-  font-size: 24px;
-  text-decoration: none;
 }
 
 
@@ -237,6 +231,7 @@ nav li:hover {
 .sitemenu {
   margin: 0 86px 0 86px;
 }
+
 .sitemenu #instrument {
   transform: translateY(50%)
 }
@@ -286,8 +281,6 @@ nav li:hover {
 
 
 
-
-
 /* フッター */
 footer {
   font-size: 12px;
@@ -321,6 +314,7 @@ footer li a:hover {
   .tab li a {
     font-size: 14px;
   }
+
   main {
     width: 300px;
     margin: 0 auto;
@@ -328,6 +322,15 @@ footer li a:hover {
   nav ul {
     width:284px;
   }
+  .thumbnails {
+    display: grid;
+    grid-template-columns: repeat(5, 56px);
+    gap: 5px;
+  }
+  .thumbnails img {
+    width: 56px;
+  }
+
 
   .othersite {
     font-size: 10px;
