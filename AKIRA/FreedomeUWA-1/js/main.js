@@ -87,7 +87,7 @@
 // 点検更新日
 {
   function butotnClick(){
-    msg.innerText =  datetext.value 
+    msg.textContent =  datetext.value 
   }
   
   let datetext = document.getElementById('datetext');
