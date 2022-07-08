@@ -81,3 +81,21 @@
     document.querySelectorAll('.thumbnails > li')[target].click();
   });
 }
+
+
+
+// 点検更新日
+{
+  function butotnClick(){
+    msg.innerText =  datetext.value 
+  }
+  
+  let datetext = document.getElementById('datetext');
+  datetext.value = 'inspection';
+  let msg = document.getElementById('msg');
+  
+  let checkButton = document.getElementById('checkButton');
+  checkButton.addEventListener('click', butotnClick);
+
+  
+}
