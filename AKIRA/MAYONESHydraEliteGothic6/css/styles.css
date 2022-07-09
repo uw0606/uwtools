@@ -214,6 +214,17 @@ nav li:hover {
   margin-bottom: 62px;
 }
 
+/* 点検最終日 */
+.inspection {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.inspection h3{
+  font-size: 20px;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
 /* フッター */
 footer {
   font-size: 12px;
