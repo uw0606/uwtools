@@ -5,7 +5,9 @@
   <meta name ="viewport" content ="width=device-width, initial-scale=1">
   <title>Gibson(アコギ)</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="uwicon.png">
+  <link rel="icon" href="../../uwicon.png">
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4' id='jquery-core-js'></script>
+  <script src="../../garlic.js"></script>
 </head>
 <body>
   <header>
@@ -141,6 +143,12 @@
     
     <ul class="thumbnails"></ul>
   </main>
+
+  <!-- 点検最終日 -->
+  <form class="inspection" data-persist="garlic" >
+    <h3>点検最終日</h3>
+    <input type="date" id="datetext" value="日程">
+  </form>
 
   <footer>
     <ul>
